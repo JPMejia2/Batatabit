@@ -1,8 +1,5 @@
-
-
-# Batatabit
-## Proyecto III Periodo 2021
-<img width="180px" src="https://github.com/JPMejia2/Batatabit/blob/main/img/imagenes/ejemplo.jpg?raw=true">
+# Proyecto III Periodo 2021
+<img width="500px" src="https://github.com/JPMejia2/Mi-portafolio/blob/main/img/brackets.jpg?raw=true">
 
 **Colegio:** Santa Catalina Laboure
 
