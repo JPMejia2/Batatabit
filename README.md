@@ -13,4 +13,15 @@
 
 En este proyecto encontrarás una página web acerca de las criptomonedas adaptable en la mayoría de los dispositivos con características funcionales y estéticas. Está hecha por mi persona utilizando HTML y CSS por medio de la aplicación de Brackets.
 
+## ÍNDICE
+- Portada
+- Anteportada
+- Índice
+- Objetivos
+- Descripción del proyecto
+-  Batatabit versión teléfono
+-  Batatabit versión tablet
+-  Batatabit versión computadora
+-  Conclusiones
+
 [https://jpmejia2.github.io/Batatabit/](https://jpmejia2.github.io/Batatabit/)
