@@ -340,7 +340,6 @@ th, td {
 .botoncajab{
     width: 18rem;
     height: 5rem;
-    font-size: 3rem;
     background-color: blue;
     border: 5px solid var(--Bitcoin-Orange);
     border-radius: 0.5rem;
@@ -967,8 +966,8 @@ footer{
         margin-top: 1rem;
     }
     .seccion5{
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .seccion5texto{
         font-size: 1.6rem;
@@ -988,7 +987,7 @@ footer{
         display: none;
     }
     .cajasblancas2{
-        width: 15rem;
+        width: 13rem;
         height: 16rem;
         background-color: var(--White);
         border-radius: 0.6rem;
@@ -1019,19 +1018,25 @@ footer{
         color: var(--Grey);
     }
     .ctb{
-        width: 75%;
+        width: 13rem;
         height: auto;
-        padding-left: 4.6rem;
-        padding-right: 4.6rem;
-        background-color: aqua;
+        padding-left: 3.6rem;
+        padding-right: 3.6rem;
+        background-color: var(--White);
     }
     .ctb2{
         width: 100%;
         height: auto;
-        background-color: aqua;
         margin-top: 7rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .ctb3{
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .cajanaranja{
         width: 7rem;
@@ -1040,90 +1045,111 @@ footer{
         border-radius: 0.5rem;
         position: absolute;
         margin-top: 2rem;
-        margin-left: 24%;
+        margin-left: 33%;
         margin-right: 45%;
         padding: 0.5rem;
     }
     .botoncajab{
-        width: 13rem;
-        height: 5rem;
-        font-size: 3rem;
-        background-color: blue;
-        border: 5px solid var(--Bitcoin-Orange);
-        border-radius: 0.5rem;
+        width: 10.5rem;
+        height: 3rem;
+        border: 2px solid var(--Bitcoin-Orange);
+        border-radius: 0.4rem;
         background-color: var(--Off-White);
-        padding: 1rem;
+        padding: 1.3rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .botoncajab b{
+        font-size: 0.9rem;
+        float: left;
+        margin-top: 0.3rem;
     }
     .flechaderecha{
-        width: 3rem;
+        width: 1.4rem;
         height: auto;
+        float: right;
+        margin-top: 0.2rem;
     }
     .cajanaranja p{
         font-size: 0.8rem;
         color: var(--White);
     }
     .cajaflechas{
-        background-color: aqua;
-        height: auto;
-        width: 80%;
+        height: 30rem;
+        width: 85%;
         margin: auto;
+        background-color: var(--Off-White);
     }
     .seccion5texto3{
-        font-size: 7.5rem;
+        font-size: 1.6rem;
         color: var(--Warm-Black-1);
         display: inline-block;
-        line-height: 8rem;
-        margin-top: 15rem;
-        margin-bottom: 5rem;
+        line-height: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
     }
     .cajaflechabotones{
-        width: 100%;
-        height: 14rem;
-        background-color: aquamarine;
-        margin-top: 2rem;
+        width: 85%;
+        text-align: left;
+        height: 3rem;
+        margin-top: 1rem;
+        float: left;
+        display: inline-block;
+        background-color: var(--Off-White);
+    }
+    .flechas1{
+        width: 15%;
+        height: 3rem;
+        display: inline-block;
+        margin-top: 1rem;
+        padding-top: 1rem;
     }
     .seccion5texto4{
-        font-size: 4.2rem;
-        color: var(--Grey);
+        font-size: 0.9rem;
+        color: var(--Warm-Black);
         margin-bottom: 0.2rem;
-        margin-top: 8.5rem;
-        line-height: 6rem;
+        margin-top: 0.5rem;
+        line-height: 1.3rem;
+        background-color: var(--Off-White);
     }
 
     footer{
         width: 100%;
-        height: 20rem;
+        height: 10rem;
         background-color: var(--Bitcoin-Orange);
         padding-left: 5rem;
         display: inline-block;
     }
     .fdiv{
         height: 100%;
-        width: 30rem;
-        background-color: aquamarine;
+        width: 8rem;
         display: inline-block;
+        padding-top: 1.8rem;
+        background-color: var(--Bitcoin-Orange);
     }
     .footertext{
-        font-size: 4.2rem;
+        font-size: 0.9rem;
         color: var(--White);
-        line-height: 6rem;
+        line-height: 2rem;
     }
     .ffdiv{
         height: 100%;
-        width: 30rem;
-        background-color: aqua;
+        width: 9rem;
         display: inline-block;
         float: right;
+        padding-top: 1.8rem;
+        background-color: var(--Bitcoin-Orange);
     }
     .papalina2{
         height: auto;
-        width: 15rem;
+        width: 3.4rem;
         margin-right: 2rem;
-        margin-top: 1rem;
+        margin-top: 1.4rem;
     }
     .ultimotext{
-        font-size: 4rem;
+        font-size: 0.5rem;
         color: var(--Soft-Orange);
+        margin-top: 0.5rem;
     }
 }
     
@@ -1138,5 +1164,27 @@ footer{
     }
     .foto{
         height: 25rem;
+    }
+    .seccion5{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .cajaflechas{
+        height: 30rem;
+        width: 95%;
+        margin: auto;
+        background-color: var(--Off-White);
+    }
+}
+@media screen and (max-width:351px){
+    footer{
+        padding-left: 3rem;
+    }
+    .fdiv{
+        width: 6rem;
+        
+    }
+    .ffdiv{
+        width: 7rem;
     }
 }
