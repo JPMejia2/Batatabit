@@ -25,6 +25,13 @@
 -  Batatabit versión computadora
 -  Conclusiones
 
+## OBJETIVOS
+- Comprender cada tema con ayuda de ejemplos, definiciones y actividades de clase.
+
+- Manejar la información de cada tema para compartir el conocimiento con mis conocidos.
+
+- Adquirir el hábito de mostrar más interés a la programación y a cada tema importante de la clase.
+
 ## DESCRIPCIÓN
 
 En este proyecto encontrarás una página web acerca de las criptomonedas adaptable en la mayoría de los dispositivos con características funcionales y estéticas. Está hecha por mi persona utilizando HTML y CSS por medio de la aplicación de Brackets.
