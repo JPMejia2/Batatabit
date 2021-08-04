@@ -533,72 +533,104 @@ th, td {
     margin-top: 0.3rem;
     color: var(--Grey3);
 }
+.cajaflechas{
+    height: 43rem;
+    width: 85%;
+    margin: auto;
+    background-color: var(--Off-White);
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 .flechaderecha{
     width: 1.4rem;
     height: auto;
     float: right;
     margin-top: 0.2rem;
 }
+.flechas1{
+    width: 15%;
+    height: 3rem;
+    display: inline-block;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    display: none;
+}
+.flechas2{
+    width: 15%;
+    height: 3rem;
+    display: inline-block;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
 .cajanaranja p{
     font-size: 0.8rem;
     color: var(--White);
 }
 .seccion5texto3{
-    font-size: 7.5rem;
+    font-size: 2.6rem;
     color: var(--Warm-Black-1);
     display: inline-block;
-    line-height: 8rem;
-    margin-top: 15rem;
-    margin-bottom: 5rem;
+    line-height: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
 }
 .cajaflechabotones{
-    width: 100%;
-    height: 14rem;
-    background-color: aquamarine;
-    margin-top: 2rem;
+    width: 85%;
+    text-align: left;
+    height: 3rem;
+    margin-top: 1rem;
+    float: left;
+    display: inline-block;
+    background-color: var(--Off-White);
 }
 .seccion5texto4{
-    font-size: 4.2rem;
-    color: var(--Grey);
+    font-size: 1.2rem;
+    color: var(--Warm-Black);
     margin-bottom: 0.2rem;
-    margin-top: 8.5rem;
-    line-height: 6rem;
+    margin-top: 0.5rem;
+    line-height: 1.3rem;
+    background-color: var(--Off-White);
 }
 
 footer{
     width: 100%;
-    height: 20rem;
+    height: 18rem;
     background-color: var(--Bitcoin-Orange);
-    padding-left: 5rem;
+    padding-left: 20rem;
+    padding-top: 4rem;
+    padding-right: 20rem;
     display: inline-block;
 }
 .fdiv{
     height: 100%;
-    width: 30rem;
-    background-color: aquamarine;
+    width: 8rem;
     display: inline-block;
+    padding-top: 1.8rem;
+    background-color: var(--Bitcoin-Orange);
 }
 .footertext{
-    font-size: 4.2rem;
+    font-size: 1.2rem;
     color: var(--White);
-    line-height: 6rem;
+    line-height: 2rem;
 }
 .ffdiv{
     height: 100%;
-    width: 30rem;
-    background-color: aqua;
+    width: 9rem;
     display: inline-block;
     float: right;
+    padding-top: 1rem;
+    background-color: var(--Bitcoin-Orange);
 }
 .papalina2{
     height: auto;
-    width: 15rem;
-    margin-right: 2rem;
-    margin-top: 1rem;
+    width: 5rem;
+    margin-right: 1rem;
+    margin-top: 1.4rem;
 }
 .ultimotext{
-    font-size: 4rem;
+    font-size: 0.9rem;
     color: var(--Soft-Orange);
+    margin-top: 0.5rem;
 }
 /***************************************************************
 #       CONFIGURACION RESPONSIVE TABLET    *
@@ -1233,11 +1265,213 @@ footer{
         margin-top: 0.5rem;
     }
 }
-
+@media screen and (max-width:816px){
+    .seccion1{
+        height: 26rem;
+    }
+    .c2{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .c3{
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+    .seccion2{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    .seccion5{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .cajanaranja{
+        margin-left: 35%;
+    }
+    .cajah2{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .cuadrosnegrost{
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+    .seccion5div{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .cajaflechas{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    footer{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+@media screen and (max-width:766px){
+    .seccion5{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .cajanaranja{
+        margin-left: 36%;
+    }
+}
+@media screen and (max-width:764px){
+    .seccion1{
+        height: 29rem;
+    }
+}
+@media screen and (max-width:752px){
+    .seccion2{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+@media screen and (max-width:736px){
+    .cajasblancas1{
+        display: none;
+    }
+    .cajasblancas3{
+        display: none;
+    }
+    .cajanaranja{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:709px){
+    .cuadros1{
+        height: 11rem;
+    }
+    .cajanaranja{
+        margin-left: 35.5%;
+    }
+}
+@media screen and (max-width:673px){
+    .cajanaranja{
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width:640px){
+    .cajanaranja{
+        margin-left: 34%;
+    }
+}
+@media screen and (max-width:633px){
+    .seccion3{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .cuadros1{
+        width: 43%;
+    }
+    .cajanaranja{
+        margin-left: 33%;
+    }
+}
+@media screen and (max-width:626px){
+    .seccion1{
+        height: 30.5rem;
+    }
+    .seccion2{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .cuadrosnegrost{
+        margin-top: 6.5rem;
+    }
+    .seccion3{
+        height: 47rem;
+    }
+    .seccion5div{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .cajanaranja{
+        margin-left: 32%;
+    }
+}
+@media screen and (max-width:592px){
+    .c2{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .seccion2{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .cajaflechas{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .monedas{
+        float: none;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .monedas2{
+        display: none;
+    }
+    .cuadrosnegrost{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+@media screen and (max-width:589px){
+    .cuadros1{
+        width: 80%;
+        height: auto;
+    }
+    .seccion3{
+        height: 66rem;
+    }
+}
+@media screen and (max-width:558px){
+    .cajanaranja{
+        margin-left: 31%;
+    }
+}
+@media screen and (max-width:528px){
+    .monedas{
+        width: 70%;
+    }
+    .cajah2{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .cuadrosnegrost{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .seccion5div{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    footer{
+        padding-right: 2rem;
+    }
+}
+@media screen and (max-width:518px){
+    .seccion1{
+        height: 29rem;
+    }
+    .c2{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .c3{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .cajanaranja{
+        margin-left: 30%;
+    }
+}
 /***************************************************************
 #       CONFIGURACION RESPONSIVE TELÉFONO     *
 ****************************************************************/
-@media screen and (max-width:425px){
+@media screen and (max-width:482px){
     body{
         font-size: 6px;
     }
@@ -1245,8 +1479,9 @@ footer{
         width: 100%;
         height: 17rem;
         padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
-
     .c1{
         width: 100%;
         height: auto;
@@ -1328,6 +1563,8 @@ footer{
         background-color: var(--Off-White);
         padding: 1rem;
         text-align: center;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
     .bitcoin{
@@ -1439,6 +1676,8 @@ footer{
         text-align: center;
         padding-top: 5rem;
         padding-bottom: 18rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
     .cajah2{
         width: 100%;
@@ -1518,8 +1757,8 @@ footer{
         margin-top: 1rem;
     }
     .seccion5{
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
     .seccion5div{
         padding: 0rem;
@@ -1600,7 +1839,7 @@ footer{
         border-radius: 0.5rem;
         position: absolute;
         margin-top: 2rem;
-        margin-left: 33%;
+        margin-left: 30.5%;
         margin-right: 45%;
         padding: 0.5rem;
     }
@@ -1713,7 +1952,49 @@ footer{
         margin-top: 0.5rem;
     }
 }
-    
+@media screen and (max-width:464px){
+    .seccion1{
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+    }
+}
+@media screen and (max-width:425px){
+    .seccion1{
+        width: 100%;
+        height: 17rem;
+        padding: 0rem;
+        padding-top: 2rem;
+    }
+    .seccion2{
+        width: 100%;
+        height: auto;
+        background-color: var(--Off-White);
+        padding: 1rem;
+        text-align: center;
+    }
+    .seccion3{
+        width: 100%;
+        height: 61rem;
+        background-color: var(--Warm-Black);
+        text-align: center;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-top: 5rem;
+        padding-bottom: 18rem;
+    }
+    .seccion5{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .cajanaranja{
+        margin-left: 33%;
+    }
+}
+@media screen and (max-width:400px){
+    .seccion1{
+        height: 19rem;
+    }
+}
 @media screen and (max-width:375px){
     .seccion1{
         height: 19rem;
@@ -1725,6 +2006,9 @@ footer{
     }
     .foto{
         height: 25rem;
+    }
+    .seccion3{
+        height: 63rem;
     }
     .seccion5{
         padding-left: 0.5rem;
@@ -1741,13 +2025,6 @@ footer{
         margin-right: 45%;
     }
 }
-
-@media screen and (max-width:400px){
-    .seccion1{
-        height: 19rem;
-    }
-}
-
 @media screen and (max-width:351px){
     footer{
         padding-left: 3rem;
