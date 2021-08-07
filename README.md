@@ -1,7 +1,7 @@
 # Proyecto III Periodo 2021
 
 ## ANTEPORTADA
-<img width="200px" src="https://github.com/JPMejia2/MenuPaginaSCL/blob/main/img/d1b317_4114e1fd9f0d4d85a17f9a1ed58be4aa_mv2%20(2).png?raw=true">
+<img width="100px" src="https://github.com/JPMejia2/MenuPaginaSCL/blob/main/img/d1b317_4114e1fd9f0d4d85a17f9a1ed58be4aa_mv2%20(2).png?raw=true">
 
 <img width="500px" src="https://github.com/JPMejia2/Mi-portafolio/blob/main/img/brackets.jpg?raw=true">
 
